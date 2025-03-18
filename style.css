@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 200px;
+}
+.smile-emoji{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+}
+.eye1{
+    position: absolute;
+    width:16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 50%;
+    top:28px;
+    left:18px;
+}
+.eye2{
+    position: absolute;
+    width:16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 50%;
+    top:28px;
+    left:70px;
+}
+.mouth{
+    height: 20px;
+    width: 70px;
+    position: absolute;
+    background-color: white;
+    /* border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; */
+    border-radius: 0 0 70px 70px;
+    top:57px;
+    left:14px;
+    z-index: 1;
+    overflow: hidden;
+}
+.tounge{
+    position: absolute;
+    width:30px;
+    height: 25px;
+    background-color: red;
+    top:8px;
+    left:22px;
+    border-radius: 100%;
+}
+.spechless{
+    margin: 20px;
+    width: 100px;
+    height:100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    
+}
+.sp-mouth{
+    position: absolute;
+    height:10px;
+    width: 60px;
+    background-color: white;
+    left: 20px;
+    top: 60px;
+    border-radius: 20%;
+}
+.shock{
+    margin:20px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+}
+.sh-mouth{
+    position: absolute;
+    height: 40px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    top:50px;
+    left: 33px;
+}
